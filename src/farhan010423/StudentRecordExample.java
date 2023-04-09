@@ -17,6 +17,11 @@ public class StudentRecordExample {
         anna.setName("Anna");
         anna.setAddress("Padang");
         anna.setAge(18);
+        anna.setMathGrade(90);
+        anna.setEnglishGrade(75);
+        anna.setScienceGrade(60);
+       
+        
         
         cris.setName("Cris");
         cris.setAddress("Bukittinggi");
@@ -27,12 +32,18 @@ public class StudentRecordExample {
         System.out.println("Nama    : "+anna.getName());
         System.out.println("Alamat  : "+anna.getAddress());
         System.out.println("Umur    : "+anna.getAge());
+        System.out.println("MathGrade    : "+anna.getMathGrade());
+        System.out.println("EnglishGrade    : "+anna.getEnglishGrade());
+        System.out.println("ScienceGrade    : "+anna.getScienceGrade());
+        System.out.println("Rata-rata    : "+anna.getAverage());
+        System.out.println("Grade    : "+anna.getLetterGrade());
         System.out.println(" ");
         
         //memanggil method print
         System.out.println("Data objek Cris");
         cris.print("");
         cris.print(70, 80, 90);
+        
         System.out.println(" ");
         
         //memanggil objek melalui konstruktor method

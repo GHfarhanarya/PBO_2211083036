@@ -9,13 +9,14 @@ package farhan010423;
  * @author hp
  */
 public class StudentRecord {
-    private String name; 
+    protected String name; 
     private String address; 
     private int age; 
     private double mathGrade; 
     private double englishGrade; 
     private double scienceGrade; 
-    private double average; 
+    private double average;
+    private char letterGrade;
     //area penulisan kode selanjutnya
     
     private static int  studentCount;//class var
@@ -66,12 +67,30 @@ public class StudentRecord {
     
         public void setScienceGrade(double scienceGrade){
             this.scienceGrade = scienceGrade; 
-        }
+        }   
     ///////////////////////////////////////
     public double getAverage(){
-        average = (getMathGrade()+getEnglishGrade()+getScienceGrade()/3);
+        average = (getMathGrade()+getEnglishGrade()+getScienceGrade())/3;
         return average; 
     }
+    ///////////////////////////////////////
+     public String getLetterGrade(){
+    String letterGrade = null;
+    double average = getAverage();
+    
+    if(average > 80){
+            letterGrade = "A";
+        }else if(average > 65){
+            letterGrade = "B";
+        }else if(average > 55){
+            letterGrade = "C";
+        }else if(average > 40){
+            letterGrade = "D";
+        }else if(average > 0){
+            letterGrade = "E";
+        }
+        return letterGrade;
+    } 
     ///////////////////////////////////////
     public static int getStudentCount(){ 
         return studentCount; 
@@ -88,6 +107,11 @@ public class StudentRecord {
     System.out.println("Math Grade:" + mGrade); 
     System.out.println("English Grade:" + eGrade); 
     System.out.println("Science Grade:" + sGrade); 
+    mathGrade=mGrade;
+    englishGrade=eGrade;
+    scienceGrade=sGrade;
+    System.out.println("rata :"+getAverage());
+    System.out.println("Grade :"+getLetterGrade());
     }
     ////////////////////////////////////////////
     
