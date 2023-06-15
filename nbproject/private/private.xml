@@ -5,12 +5,16 @@
         <group>
             <file>file:/D:/PBO_2211083036/src/UTS_A/PelangganController.java</file>
             <file>file:/D:/PBO_2211083036/src/farhan150423/model/Anggota.java</file>
+            <file>file:/D:/PBO_2211083036/src/farhan/db/DbHelper.java</file>
             <file>file:/D:/PBO_2211083036/src/UTS_A/PelangganDaoImpl.java</file>
             <file>file:/D:/PBO_2211083036/src/farhan150423/controller/AnggotaController.java</file>
             <file>file:/D:/PBO_2211083036/src/farhan150423/view/FormPeminjaman.java</file>
+            <file>file:/D:/PBO_2211083036/src/farhan/model/Anggota.java</file>
+            <file>file:/D:/PBO_2211083036/src/farhan/dao/AnggotaDaoImpl.java</file>
             <file>file:/D:/PBO_2211083036/src/farhan150423/model/Buku.java</file>
             <file>file:/D:/PBO_2211083036/src/UTS_A/PelangganDao.java</file>
             <file>file:/D:/PBO_2211083036/src/UTS_A/Pelanggan.java</file>
+            <file>file:/D:/PBO_2211083036/src/farhan/dao/AnggotaDao.java</file>
             <file>file:/D:/PBO_2211083036/src/farhan150423/view/FormAnggota.java</file>
             <file>file:/D:/PBO_2211083036/src/farhan150423/model/AnggotaDaoImpl.java</file>
             <file>file:/D:/PBO_2211083036/src/farhan150423/model/AnggotaDao.java</file>
